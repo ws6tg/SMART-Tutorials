@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'SMART'
+copyright = '2025, Chen Qiyi'
+author = 'Chen Qiyi'
 
 release = '0.1'
 version = '0.1.0'
@@ -12,11 +12,13 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    'm2r2',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'nbsphinx'
 ]
 
 intersphinx_mapping = {
@@ -26,6 +28,9 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+
+source_suffix = '.rst'
 
 # -- Options for HTML output
 
