@@ -19,5 +19,4 @@ smart.train
    :nosignatures:
 
 
-   spamosaic.smart
-
+   smart.train
