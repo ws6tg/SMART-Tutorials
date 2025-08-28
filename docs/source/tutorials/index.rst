@@ -26,7 +26,7 @@ Available Tutorials
 ------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Tutorials
 
    tutorials/Tutorial_1/index
