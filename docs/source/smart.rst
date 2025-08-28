@@ -13,5 +13,3 @@ API Documentation
    :caption: Submodules
 
    api/smart.train
-   api/smart.train
-   api/smart.train
