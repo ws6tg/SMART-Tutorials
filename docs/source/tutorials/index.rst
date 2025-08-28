@@ -1,4 +1,4 @@
-Welcome to SMART Tutorials
+Tutorials
 =========================
 
 We provide five examples detailing SMART's workflow, 
@@ -17,9 +17,8 @@ You can start with any of the following tutorials:
 
 - :doc:`Tutorial 5: 10X human tonsil multi-slice integration <tutorials/Tutorial_5_10x_human_tonsil_multi_slice_integration>`  
 
-
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :caption: Tutorials
 
    tutorials/Tutorial_1_Simulated_multi_omics_data_integration
