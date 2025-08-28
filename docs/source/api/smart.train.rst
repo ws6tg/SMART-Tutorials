@@ -18,5 +18,3 @@ smart.train
    :toctree:
    :nosignatures:
 
-
-   smart.train
