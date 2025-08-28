@@ -12,6 +12,7 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    'm2r2',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
