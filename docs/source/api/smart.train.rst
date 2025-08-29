@@ -7,14 +7,3 @@ smart.train
    :show-inheritance:
 
 
-
-
-
-
-
-.. rubric:: Functions
-
-.. autosummary::
-   :toctree:
-   :nosignatures:
-

@@ -5,7 +5,6 @@ SMART API Documentation
    :maxdepth: 2
    :caption: Modules
 
-   smart
    smart.build_graph
    smart.MNN
    smart.model

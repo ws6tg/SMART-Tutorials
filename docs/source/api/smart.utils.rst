@@ -1,5 +1,5 @@
-smart.utils module
-==================
+smart.utils
+===========
 
 .. automodule:: smart.utils
    :members:

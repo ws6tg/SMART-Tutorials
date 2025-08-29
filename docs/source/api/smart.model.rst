@@ -1,5 +1,5 @@
-smart.model module
-==================
+smart.model
+===========
 
 .. automodule:: smart.model
    :members:

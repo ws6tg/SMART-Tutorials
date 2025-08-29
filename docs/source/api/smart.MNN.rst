@@ -1,7 +1,7 @@
-smart package
-=============
+smart.MNN 
+=========
 
-.. automodule:: smart
+.. automodule:: smart.MNN
    :members:
    :undoc-members:
    :show-inheritance:

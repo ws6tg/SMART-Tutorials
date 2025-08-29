@@ -30,7 +30,7 @@ Citation
 Zhihua Du, Qiyi Chen, Weiliang Huang, Jinmiao Chen & Xubin Zheng. SMART: Spatial multi-omic aggregation using graph neural networks and metric learning. 2024.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
    
    installation

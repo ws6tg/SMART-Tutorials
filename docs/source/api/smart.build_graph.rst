@@ -1,5 +1,5 @@
-smart.build_graph module
-========================
+smart.build_graph
+=================
 
 .. automodule:: smart.build_graph
    :members:
