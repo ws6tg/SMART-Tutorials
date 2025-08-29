@@ -9,14 +9,23 @@ import smart
 
 # -- Project information
 
-
-
 project = 'SMART'
 copyright = '2025, Chen Qiyi'
 author = 'Chen Qiyi'
 
 release = '0.1'
 version = '0.1.0'
+
+# -- General configuration
+extensions = [
+    'sphinx.ext.duration',
+    "sphinx.ext.napoleon", 
+    'sphinx.ext.doctest',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.intersphinx',
+    'nbsphinx'
+]
 
 # -- Mock the package that is hard to install in the RTD environment.
 autodoc_mock_imports =[
@@ -32,18 +41,6 @@ autodoc_mock_imports =[
     "pandas",               
     "numpy",                
     "lumache",              
-]
-# -- General configuration
-
-
-extensions = [
-    'sphinx.ext.duration',
-    "sphinx.ext.napoleon", 
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-    'nbsphinx'
 ]
 
 autosummary_generate = True
