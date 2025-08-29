@@ -3,7 +3,7 @@
 # -- Project information
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../..'))  # ensure that smart package can be found.
+sys.path.insert(0, os.path.abspath('../../smart'))  # ensure that smart package can be found.
 
 
 project = 'SMART'
@@ -17,12 +17,16 @@ version = '0.1.0'
 
 extensions = [
     'sphinx.ext.duration',
+    "sphinx.ext.napoleon", 
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'nbsphinx'
 ]
+
+autosummary_generate = True
+autodoc_typehints = "description"
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),

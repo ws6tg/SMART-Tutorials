@@ -7,7 +7,7 @@ MNN triplet samples calculation, model training, clustering, and visualization.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Tutorials
+   :caption: 
 
    Tutorial_1_Simulated_multi_omics_data_integration
    Tutorial_2_10x_human_lymph_node_data_integration
