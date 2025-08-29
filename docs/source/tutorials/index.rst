@@ -6,7 +6,7 @@ including data preprocessing, spatial neighbour graph construction,
 MNN triplet samples calculation, model training, clustering, and visualization.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Tutorials
 
    Tutorial_1_Simulated_multi_omics_data_integration

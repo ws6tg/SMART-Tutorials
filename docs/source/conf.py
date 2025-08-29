@@ -1,9 +1,14 @@
 # Configuration file for the Sphinx documentation builder.
-
-# -- Project information
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../smart'))  # ensure that smart package can be found.
+
+sys.path.insert(0, os.path.abspath('../../'))  # ensure that can find smart package
+
+import smart
+
+
+# -- Project information
+
 
 
 project = 'SMART'
