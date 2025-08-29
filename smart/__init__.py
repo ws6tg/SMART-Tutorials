@@ -4,6 +4,7 @@ SMART: Spatial multi-omic aggregation using graph neural networks and metric lea
 
 __version__ = "0.1.1"
 import smart.build_graph
+import smart.layer
 import smart.MNN
 import smart.model
 import smart.train

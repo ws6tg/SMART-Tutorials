@@ -147,7 +147,7 @@ def clustering(
     adata,
     n_clusters=7,
     key="emb",
-    add_key="SpatialGlue",
+    add_key="SMART",
     method="SMART",
     start=0.1,
     end=3.0,
@@ -166,7 +166,7 @@ def clustering(
         Number of clusters.
     key : str, default="emb"
         Key of input representation in `adata.obsm`.
-    add_key : str, default="SpatialGlue"
+    add_key : str, default="SMART"
         Key to store clustering results in `adata.obs`.
     method : str, default="SMART"
         Clustering method. Options: ["mclust", "leiden", "louvain", "gmm", "kmeans"].
