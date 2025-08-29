@@ -4,8 +4,6 @@ import sys
 
 sys.path.insert(0, os.path.abspath('../../'))  # ensure that can find smart package
 
-import smart
-
 
 # -- Project information
 
