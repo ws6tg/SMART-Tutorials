@@ -36,5 +36,4 @@ Zhihua Du, Qiyi Chen, Weiliang Huang, Jinmiao Chen & Xubin Zheng. SMART: Spatial
    installation
    tutorials/index
    api/index
-   datasets
    credits
