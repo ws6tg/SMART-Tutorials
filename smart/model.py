@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 from torch.nn import Parameter
-from layerer import SAGEConv_Encoder,SAGEConv_Decoder, GCNConv_Encoder, GCNConv_Decoder, GCN2Conv_Encoder, GCN2Conv_Decoder, GATConv_Encoder, GATConv_Decoder, GraphConv_Encoder, GraphConv_Decoder
+from layer import SAGEConv_Encoder,SAGEConv_Decoder, GCNConv_Encoder, GCNConv_Decoder, GCN2Conv_Encoder, GCN2Conv_Decoder, GATConv_Encoder, GATConv_Decoder, GraphConv_Encoder, GraphConv_Decoder
 import torch.nn.functional as F
 
 class SMART(torch.nn.Module):
