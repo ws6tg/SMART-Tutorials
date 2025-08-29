@@ -18,7 +18,23 @@ author = 'Chen Qiyi'
 release = '0.1'
 version = '0.1.0'
 
+# -- Mock the package that is hard to install in the RTD environment.
+autodoc_mock_imports =[
+    "torch",                
+    "torch_geometric",     
+    "scanpy",               
+    "muon",                 
+    "harmony",             
+    "rpy2",                
+    "numba",                
+    "scikit-learn",         
+    "matplotlib",           
+    "pandas",               
+    "numpy",                
+    "lumache",              
+]
 # -- General configuration
+
 
 extensions = [
     'sphinx.ext.duration',
