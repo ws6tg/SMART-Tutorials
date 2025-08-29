@@ -11,13 +11,13 @@ from sklearn.mixture import GaussianMixture
 from sklearn.cluster import KMeans
 
 
-def set_seed(seed=2025):
+def set_seed(seed=2024):
     """
     Set random seed for reproducibility across Python, NumPy, PyTorch, and CUDA.
 
     Parameters
     ----------
-    seed : int, default=2025
+    seed : int, default=2024
         Random seed value.
 
     Returns
