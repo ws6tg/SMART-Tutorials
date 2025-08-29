@@ -1,8 +1,8 @@
 from scipy import stats
 import torch
 from tqdm import tqdm
-
-from smart.model import SMART, SAGEConv_Decoder, SAGEConv_Encoder
+from smart.model import SMART
+from smart.layer import SAGEConv_Decoder, SAGEConv_Encoder
 import torch.nn.functional as F
 import numpy as np
 
