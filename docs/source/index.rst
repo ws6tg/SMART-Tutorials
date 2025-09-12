@@ -25,6 +25,8 @@ To begin using **SMART**, please refer to the following sections of the document
 
 - The :doc:`Tutorials <tutorials/index>` contains examples on how to use **SMART** for various integration and imputation tasks.
 
+- The :doc:`SMART API Documentation <api/index>` provides details on available classes and functions.
+
 Citation
 ========
 Zhihua Du, Qiyi Chen, Weiliang Huang, Jinmiao Chen & Xubin Zheng. SMART: Spatial multi-omic aggregation using graph neural networks and metric learning. 2024.
